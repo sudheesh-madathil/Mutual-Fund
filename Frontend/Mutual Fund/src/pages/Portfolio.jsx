@@ -1,6 +1,6 @@
 // src/pages/Portfolio.js
 import { useEffect, useState } from "react";
-import API from "../api/Axios";
+import API from "../api/axios";
 
 export default function Portfolio() {
   const [funds, setFunds] = useState([]);

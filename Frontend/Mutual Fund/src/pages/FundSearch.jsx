@@ -12,7 +12,7 @@ export default function FundSearch() {
   };
 
   const addFund = async (schemeCode) => {
-    await API.post("/portfolio/add", { schemeCode, units: 10 });
+    await API.post("/portfolio", { schemeCode, units: 10 });
     alert("Added to portfolio!");
   };
 
