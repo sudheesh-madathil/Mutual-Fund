@@ -1,0 +1,84 @@
+.dashboard-container {
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 900px;
+  margin: auto;
+}
+
+.summary p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.form input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.form button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background: #2575fc;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form button:hover {
+  background: #1a5ed6;
+}
+
+.search-results {
+  margin-top: 10px;
+}
+
+.fund-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f7f7f7;
+  padding: 8px 12px;
+  margin-bottom: 6px;
+  border-radius: 6px;
+}
+
+.fund-item button {
+  background: #82ca9d;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.fund-item button:hover {
+  background: #5bb17f;
+}
+
+.holdings-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.holdings-table th,
+.holdings-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.holdings-table th {
+  background: #f0f0f0;
+}

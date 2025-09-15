@@ -7,7 +7,7 @@ import {
   Cell,
   Tooltip,
 } from "recharts";
-
+import "./Dashboard.css";
 export default function Dashboard() {
   const [portfolio, setPortfolio] = useState([]);
   const [summary, setSummary] = useState(null);
